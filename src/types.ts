@@ -4,4 +4,4 @@ export interface ToDoStructure {
   isDone: boolean;
 }
 
-export type toDos = ToDoStructure[];
+export type ToDos = ToDoStructure[];
