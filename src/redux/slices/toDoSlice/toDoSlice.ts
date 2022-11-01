@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ToDos } from "../../../types";
 
-interface ToDoState {
+export interface ToDoState {
   list: ToDos;
 }
 
