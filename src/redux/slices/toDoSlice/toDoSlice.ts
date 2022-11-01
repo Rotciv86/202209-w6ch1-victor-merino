@@ -11,11 +11,11 @@ const initialState: ToDoState = {
 
 const toDoSlice = createSlice({
   name: "tasks",
-  initialState,
+  initialState: initialState,
   reducers: {
     loadToDos: (currentState, action: PayloadAction<ToDos>) => ({
       ...currentState,
-      list: [...currentState.list, ...action.payload],
+      list: [...action.payload],
     }),
   },
 });
